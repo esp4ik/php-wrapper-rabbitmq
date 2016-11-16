@@ -1,0 +1,23 @@
+{
+  "name": "esp4ik/php-wrapper-rabbitmq",
+  "type": "library",
+  "description": "PHP Wrapper for RabbitMQ",
+  "keywords": ["rabbitmq", "wrapper", "php"],
+  "homepage": "https://bitbucket.com/esp4ik/php-wrapper-rabbitmq",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Evgeny Voronets",
+      "email": "voronets.evgen@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5",
+    "php-amqplib/php-amqplib": "2.6.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "wrapper\\": "src/"
+    }
+  }
+}
